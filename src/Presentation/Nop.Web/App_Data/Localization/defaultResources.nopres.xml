@@ -8547,6 +8547,9 @@
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AdminComment">
     <Value>Admin comment</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AgeVerification">
+    <Value>Age verification</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.AllowAddingOnlyExistingAttributeCombinations">
     <Value>Allow only existing attribute combinations</Value>
   </LocaleResource>

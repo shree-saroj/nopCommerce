@@ -30,7 +30,8 @@ public class SchemaMigration : ForwardOnlyMigration
             Alter.Table(productTableName)
                 .AddColumn(minimumAgeToPurchaseColumnName)
                 .AsInt32()
-                .Nullable();
+                .NotNullable()
+                .WithDefaultValue(0);
         }
     }
 }
